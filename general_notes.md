@@ -1,0 +1,10 @@
+- when to use type annotations in TypeScript
+  - when declaring a variable on line and initializing it later
+  - when we want a variable to have a type that can't be inferred
+  - when a function returns the 'any' type and we need to clarify the value
+- when to use type inference
+  - always
+- `any` type
+  - a type, just as 'string' or 'boolean' are
+  - means TS has no idea what this is - can't check for correct property references
+  - **avoid variables with `any` at all costs**

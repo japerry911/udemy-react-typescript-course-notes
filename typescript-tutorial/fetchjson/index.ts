@@ -18,7 +18,11 @@ axios.get(url).then((response) => {
   logToDo(id, title, completed);
 });
 
-const logToDo = (id: number, title: string, completed: boolean) => {
+const logToDo: (id: number, title: string, completed: boolean) => void = (
+  id: number,
+  title: string,
+  completed: boolean
+) => {
   console.log(`
     The Todo with ID: ${id}
     Has a title of: ${title}
