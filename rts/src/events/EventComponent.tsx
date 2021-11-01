@@ -1,7 +1,5 @@
 const EventComponent: React.FC = () => {
-  const onChange = (
-    event: React.ChangeEventHandler<HTMLInputElement> | undefined
-  ) => {
+  const onChange = (event: React.ChangeEvent<HTMLInputElement> | undefined) => {
     console.log(event);
   };
 
@@ -13,3 +11,4 @@ const EventComponent: React.FC = () => {
 };
 
 export default EventComponent;
+å;
